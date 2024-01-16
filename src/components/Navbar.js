@@ -54,7 +54,6 @@ export default function Navbar(props) {
 </div>
   )
 }
-
 Navbar.propTypes={
     title: PropTypes.string.isRequired,
     // isRequired dalne se propTypes undefined nhi hote hai 

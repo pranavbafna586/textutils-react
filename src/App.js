@@ -23,7 +23,6 @@ function App() {
       setAlert(null);
     }, 2000);
   }
-
   const removeBodyClasses=()=>{
     document.body.classList.remove('bg-light');
     document.body.classList.remove('bg-dark');
@@ -33,7 +32,6 @@ function App() {
     document.body.classList.remove('bg-primary');
     document.body.classList.remove('bg-info');
   }
-
   const toggleMode=(cls)=>{
     removeBodyClasses();
     console.log(cls);
@@ -125,5 +123,4 @@ function App() {
         </>
   );
 }
-
 export default App;

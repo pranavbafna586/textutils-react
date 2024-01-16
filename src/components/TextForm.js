@@ -39,7 +39,6 @@ export default function TextForm(props) {
     props.showAlert("Remove extra space","dark")
   }
   
-  
   const [text,setText] = useState('');
   // text="gyan pratap singh" // this is wrong way to update text 
   // setText("Gyan pratap singh")  // correct way to update setState
